@@ -9,6 +9,7 @@ public class Hello {
     @RequestMapping("/hello")
     public String hello(Model model){
         model.addAttribute("name","ddd");
+        System.out.println("hello world1");
         return "index";
     }
 }
