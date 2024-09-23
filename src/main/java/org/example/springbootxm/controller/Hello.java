@@ -10,6 +10,7 @@ public class Hello {
     public String hello(Model model){
         model.addAttribute("name","ddd");
         System.out.println("hello world1");
+        System.out.println("hello world2");
         return "index";
     }
 }
